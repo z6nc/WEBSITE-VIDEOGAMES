@@ -17,13 +17,15 @@ module.exports = {
         'textPrimary':'#FF0F7B',
       },
       boxShadow:{
-        'whiteShadow':'1px 2px 8px white',
+        'blackShadow':'1px 2px 9px black',
+        'whiteShadow':'1px 2px 10px white',
+
       },
       fontFamily:{
         'FontPrincipal' : ' "TT Octosquares", sans-serif ',
         'FontSecundario' : '"Cosmic Octo", sans-serif',
       }
-
+    
     },
   },
   plugins: [],
