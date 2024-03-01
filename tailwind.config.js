@@ -26,7 +26,9 @@ module.exports = {
         'FontSecundario' : '"Cosmic Octo", sans-serif',
       },
       spacing: {
-        '1/7': '27%', // También puedes establecer valores en píxeles si lo prefieres
+        '1/7': '27%',
+        '3/9': '63%',
+        
       },
       
     
