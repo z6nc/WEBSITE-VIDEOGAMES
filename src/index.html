@@ -14,8 +14,8 @@
     />
   </head>
 
-  <body class="font-FontPrincipal">
-    <nav class="z-20 fixed text-white w-full pr-9  py-4    flex flex-col justify-end  ">
+  <body class="font-FontPrincipal ">
+    <nav class="z-20 fixed text-white w-full pr-9  py-4 flex flex-col justify-end  ">
      <a href="/src/loading.html" id="navbar"  class="flex justify-end "  ><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-google-photos " width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7.5 7c2.485 0 4.5 1.974 4.5 4.409v.591h-8.397a.61 .61 0 0 1 -.426 -.173a.585 .585 0 0 1 -.177 -.418c0 -2.435 2.015 -4.409 4.5 -4.409z" /><path d="M16.5 17c-2.485 0 -4.5 -1.974 -4.5 -4.409v-.591h8.397c.333 0 .603 .265 .603 .591c0 2.435 -2.015 4.409 -4.5 4.409z" /><path d="M7 16.5c0 -2.485 1.972 -4.5 4.405 -4.5h.595v8.392a.61 .61 0 0 1 -.173 .431a.584 .584 0 0 1 -.422 .177c-2.433 0 -4.405 -2.015 -4.405 -4.5z" /><path d="M17 7.5c0 2.485 -1.972 4.5 -4.405 4.5h-.595v-8.397a.61 .61 0 0 1 .175 -.428a.584 .584 0 0 1 .42 -.175c2.433 0 4.405 2.015 4.405 4.5z" /></svg></a> 
      <p id="Title" class=" justify-end items-center text-center  hidden  text-yellow-100 font-black  ">Gallery</p>
     </nav>
@@ -23,7 +23,7 @@
       class="w-full h-screen  relative flex justify-center flex-col items-center bg-cover bg-center bg-no-repeat" style="background-image: url('img/ImageMain.webp')"
     >
     
-      <div class="z-10 absolute text-white w-3/5"> 
+      <div class="z-10 absolute text-white w-3/5 animate-fade-in-down"> 
         <h3
           class="md:text-xl tracking-tight font-black my-3 w-1 font-FontSecundario"
         >
@@ -31,7 +31,7 @@
         </h3>
         <h1 class="text-7xl">Your one-stop video game center</h1>
         <button
-          class="bg-pink-700 py-2 px-5 text-base text-center items-center flex gap-2 rounded-xl my-9 transition ease-in-out delay-100 hover:-translate-y-1 hover:bg-buttomColor  hover:scale-110   duration-300 "
+          class="bg-pink-700 py-1 px-4 text-base text-center items-center flex gap-2 rounded-xl my-9  hover:bg-buttomColor  hover:scale-105   duration-300 "
         >
           SHOP NOW
           <svg   xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right bg-white text-black rounded-2xl py-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M15 16l4 -4" /><path d="M15 8l4 4" /></svg>
@@ -41,12 +41,12 @@
     </main>
     
     <section
-      class="bg-hardDark h-mdScreen flex justify-center items-center text-center flex-col"
+      class="bg-hardDark h-mdScreen flex justify-center items-center text-center flex-col "
     >
-      <h1 class="text-white text-6xl my-7">
+      <h1 class="text-white text-6xl my-7 animate-fade-in-down">
         Shop at <b class="text-textPrimary">Kyobi</b>
       </h1>
-      <p class="w-2/4 text-2xl text-white mb-20">
+      <p class="w-2/4 text-2xl text-white mb-20 ">
         Looking for the latest releases? Or are retro classics more your thing?
         At Kyobi, we stock a wide selection of titles for every kind of gamer.
       </p>
@@ -81,7 +81,7 @@
     <section
       class="h-mxScreem bg-custom-dark grid grid-cols-2 gap-5 justify-center items-center"
     >
-      <img class="mx-80 w-2/5" src="https://i.pinimg.com/564x/aa/2b/11/aa2b1165ab4b571d89a114fb03003f3d.jpg" alt="" />
+      <img class="mx-80 w-3/1" src="https://i.pinimg.com/564x/1f/51/2b/1f512babb0387d1bbdeb64c904ad0ad6.jpg" alt="" />
       <div class="mx-7 flex justify-center flex-col">
         <h1 class="text-textPrimary text-2xl w-1/4 font-black">
           REAL TIME STRATEGY GAMES
@@ -91,16 +91,16 @@
           players alike.
         </p>
         <button
-          class="bg-buttomColor text-white py-1 px-4 text-sm text-center rounded-xl w-1/4 transition-all duration-75 ease-out hover:font-black"
+          class="bg-buttomColor text-white py-1 px-4 text-sm text-center rounded-xl w-1/4 transition hover:scale-105 duration-300 font-semibold "
         >
           SEE MORE
         </button>
       </div>
     </section>
     <section
-      class="h-mdScreen bg-custom-dark grid grid-cols-2 gap-5 justify-center items-center"
+      class="h-screen bg-custom-dark grid grid-cols-2 gap-5 justify-center items-center"
     >
-      <img class="mx-80 w-2/5" src="/src/img/PlayGames2.jpg" alt="" />
+      <img class="mx-80 w-3/1" src="https://i.pinimg.com/564x/3a/85/3d/3a853d5d223c5d01ddf15a1021ffd4dc.jpg" alt="" />
       <div class="mx-7 flex justify-center flex-col">
         <h1 class="text-textPrimary text-2xl w-2/6 font-black">
           ROLE-PLAYING GAMES
@@ -109,7 +109,7 @@
           Lose yourself in exotic worlds where your mission is to save the day.
         </p>
         <button
-          class="bg-buttomColor text-white py-1 px-4 text-sm text-center rounded-xl w-1/4 transition-all duration-75 ease-out hover:font-black"
+          class="bg-buttomColor text-white py-1 px-4 text-sm text-center rounded-xl w-1/4 transition hover:scale-105 duration-300 font-semibold "
         >
           SEE MORE
         </button>
@@ -118,14 +118,14 @@
     <section
       class="h-mdScreen bg-custom-dark grid grid-cols-2 gap-5 justify-center items-center"
     >
-      <img class="mx-80 w-2/5" src="/src/img/PlayGames3.jpg" alt="" />
+      <img class="mx-80 w-3/1 hover:scale-105 " src="https://i.pinimg.com/564x/0f/e5/11/0fe5117eb18220bd7c6a0407f904086b.jpg" alt="" />
       <div class="mx-7 flex justify-center flex-col">
         <h1 class="text-textPrimary text-2xl w-2/4 font-black">CASUAL GAMES</h1>
         <p class="text-white w-2/5 my-6">
           A collection of unique and quirky games to while away your day.
         </p>
         <button
-          class="bg-buttomColor text-white py-1 px-4 text-sm text-center rounded-xl w-1/4 transition-all duration-75 ease-out hover:font-black"
+          class="bg-buttomColor text-white py-1 px-4 text-sm text-center rounded-xl w-1/4 transition hover:scale-105 duration-300 font-semibold "
         >
           SEE MORE
         </button>
@@ -160,7 +160,7 @@
         </div>
       </article>
     </section>
- <section class="h-screen relative flex justify-center   ">
+ <footer class="h-screen relative flex justify-center   ">
   <article class="z-10 absolute  grid grid-cols-2  gap-9 h-screen">
    <h1 class="text-white font-black  text-6xl w-80  my-36 ml-48">Send us a message</h1>
     <div class="flex flex-col justify-end mb-24 w-2/6 ml-32">
@@ -178,13 +178,13 @@
   </article>
   <img  class="w-full h-full object-cover filter brightness-50" src="/src/img/PlayGames4.jpg" alt="">
   
- </section>
+ </footer>
   </body>
   <script>
     const otro = document.getElementById("Subtitle");
     if (otro) {
       let textos = ["CHECK IT OUT", "OUR GAME COLLECTION"];
-      let index = 0; // Índice inicial
+      let index = 0; 
 
       setInterval(() => {
         otro.style.opacity = 0;
@@ -192,8 +192,8 @@
           otro.innerText = textos[index];
           index = (index + 1) % textos.length;
           otro.style.opacity = 1;
-        }, 300); // Esperar 500 milisegundos para que la opacidad llegue a 0 antes de cambiar el texto
-      }, 2000); // Cambiar el texto cada 2 segundos
+        }, 300); 
+      }, 2000); 
     }
   </script>
   <script>

@@ -610,6 +610,11 @@ video {
   margin-right: 20rem;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .my-11 {
   margin-top: 2.75rem;
   margin-bottom: 2.75rem;
@@ -660,9 +665,16 @@ video {
   margin-bottom: 2.25rem;
 }
 
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+.-mb-11 {
+  margin-bottom: -2.75rem;
+}
+
+.-mb-20 {
+  margin-bottom: -5rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .mb-20 {
@@ -685,72 +697,8 @@ video {
   margin-left: 12rem;
 }
 
-.mr-14 {
-  margin-right: 3.5rem;
-}
-
-.ml-52 {
-  margin-left: 13rem;
-}
-
-.ml-56 {
-  margin-left: 14rem;
-}
-
-.ml-60 {
-  margin-left: 15rem;
-}
-
-.ml-64 {
-  margin-left: 16rem;
-}
-
 .ml-72 {
   margin-left: 18rem;
-}
-
-.-mb-11 {
-  margin-bottom: -2.75rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
-.-mb-14 {
-  margin-bottom: -3.5rem;
-}
-
-.-mb-40 {
-  margin-bottom: -10rem;
-}
-
-.-mb-20 {
-  margin-bottom: -5rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.ml-16 {
-  margin-left: 4rem;
-}
-
-.ml-1\/7 {
-  margin-left: 27%;
-}
-
-.ml-80 {
-  margin-left: 20rem;
-}
-
-.ml-96 {
-  margin-left: 24rem;
 }
 
 .block {
@@ -809,6 +757,10 @@ video {
   width: 33.333333%;
 }
 
+.w-3\/1 {
+  width: 42%;
+}
+
 .w-3\/5 {
   width: 60%;
 }
@@ -829,10 +781,6 @@ video {
   width: 100%;
 }
 
-.w-1\/3 {
-  width: 33.333333%;
-}
-
 .max-w-4xl {
   max-width: 56rem;
 }
@@ -851,20 +799,20 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8,0,1,1);
+@keyframes fade-in-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
   }
 
-  50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-.animate-bounce {
-  animation: bounce 1s infinite;
+.animate-fade-in-down {
+  animation: fade-in-down 0.6s ease-in-out both;
 }
 
 .cursor-pointer {
@@ -935,27 +883,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
-.border-b-4 {
-  border-bottom-width: 4px;
-}
-
-.border-b {
-  border-bottom-width: 1px;
-}
-
-.border-b-2 {
-  border-bottom-width: 2px;
-}
-
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
 .bg-black\/30 {
   background-color: rgb(0 0 0 / 0.3);
 }
@@ -1011,11 +938,6 @@ video {
   padding-right: 1rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
@@ -1029,11 +951,6 @@ video {
 .py-11 {
   padding-top: 2.75rem;
   padding-bottom: 2.75rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .py-4 {
@@ -1119,6 +1036,10 @@ video {
   font-weight: 700;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -1178,20 +1099,10 @@ video {
   transition-duration: 150ms;
 }
 
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .transition-opacity {
   transition-property: opacity;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-.delay-100 {
-  transition-delay: 100ms;
 }
 
 .duration-1000 {
@@ -1206,20 +1117,13 @@ video {
   transition-duration: 700ms;
 }
 
-.duration-75 {
-  transition-duration: 75ms;
-}
-
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ease-out {
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-}
-
-.hover\:-translate-y-1:hover {
-  --tw-translate-y: -0.25rem;
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1238,10 +1142,6 @@ video {
 .hover\:bg-buttomColor:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 15 123 / var(--tw-bg-opacity));
-}
-
-.hover\:font-black:hover {
-  font-weight: 900;
 }
 
 .hover\:text-textPrimary:hover {

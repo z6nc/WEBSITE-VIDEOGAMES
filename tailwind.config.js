@@ -1,3 +1,4 @@
+import animations from '@midudev/tailwind-animations'
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
@@ -28,12 +29,13 @@ module.exports = {
       spacing: {
         '1/7': '27%',
         '3/9': '63%',
+        '3/1':'42%',
         
       },
       
     
     },
   },
-  plugins: [],
+  plugins: [animations],
 }
 
