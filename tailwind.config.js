@@ -24,7 +24,11 @@ module.exports = {
       fontFamily:{
         'FontPrincipal' : ' "TT Octosquares", sans-serif ',
         'FontSecundario' : '"Cosmic Octo", sans-serif',
-      }
+      },
+      spacing: {
+        '1/7': '27%', // También puedes establecer valores en píxeles si lo prefieres
+      },
+      
     
     },
   },
