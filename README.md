@@ -7,6 +7,8 @@ npm run dev
 
 - [Astro](https://astro.build/)
 - [Tailwind CSS](https://tailwindcss.com/)
+-  HTML  Lenguaje de marcado estándar utilizado para crear páginas web.
+- JavaScript  Lenguaje de programación utilizado para agregar interactividad y funcionalidad a las páginas web.
 
  ## 🚀 View Pages Website
  
