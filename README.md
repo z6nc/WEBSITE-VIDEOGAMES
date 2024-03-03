@@ -10,7 +10,7 @@ npm run dev
 
  ## 🚀 View Pages Website
  
-![Texto alternativo](https://i.postimg.cc/VkQK7mwP/pag1.png)
+![Texto alternativo](https://i.postimg.cc/7LFKG4LL/webSitee.png)
 ![Texto alternativo](https://i.postimg.cc/Lspqn0pp/loading.png)
 ![Texto alternativo](https://i.postimg.cc/P54LvQrv/web-Completa.png)
 
