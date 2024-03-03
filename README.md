@@ -1,4 +1,4 @@
-# GimnasioAstreus: Website Practice
+# KYOBI GAMES : Website Practice
 
 ```sh
 npm run dev 
